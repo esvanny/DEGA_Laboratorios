@@ -17,7 +17,7 @@
 						<div class="background">
 							<img  class="responsive-img" src="images/SideNav/wall.jpg">
 						</div>
-						<a href="#"><img  class="responsive-img" width="150px"src="images/dega-logo-min.svg"></a>
+						<a href="#"><img  class="responsive-img" width="150px" src="images/dega-logo-min.svg"></a>
 					</div>
 				</li>
 				<li><a href="index.php"><i class="material-icons">home</i>Inicio - DEGA Laboratorios</a></li>

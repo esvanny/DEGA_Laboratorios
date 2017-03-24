@@ -6,7 +6,7 @@
           <span class="card-title"></span>
         </div>
         <div class="card-content">
-          <p>Exémenes Médicos</p>
+          <p>Exámenes Médicos</p>
         </div>
       </div>
     </div>
@@ -17,7 +17,7 @@
           <span class="card-title"></span>
         </div>
         <div class="card-content">
-          <p>Laboratorios clínico</p>
+          <p>Laboratorios clínicos</p>
         </div>
       </div>
     </div>

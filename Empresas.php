@@ -1,30 +1,50 @@
-<?php include('templates/header.php'); ?>
-	<section id="main">
-		<section id="Contenido" class="container">
-			<ul class="nav nav-tabs nav-justified" id="tab-empresas">
-			  <li class="active">
-				<a data-toggle="tab" href="#EMPRESAS" aria-expanded="true"><h2>EMPRESAS</h2></a>
-			  </li>
-			  <li>
-			  	<a data-toggle="tab" href="#PARTICULARES" aria-expanded="true"><H2>PARTICULARES</H2></a>
-			  </li>
-			</ul>
-			<section class="tab-content">
-			    <article id="EMPRESAS" class="tab-pane fade active in">
-			    	<div id="contenido-tabs">
-			      		<p>ESTE ES EL TEXTO DE LAS EMPRESAS</p>
-			    	</div>
-			    </article>
-			    <article id="PARTICULARES" class="tab-pane fade">
-			    	<div id="contenido-tabs">
-			      		<p>ESTE ES EL TEXTO DE LOS PARTICULARES</p>
-			    	</div>
-			    </article>
-			</section>
-			<section id="clientes">
-				
-			</section>
-		</section>
-	</section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>DEGA Laboratorios</title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-<?php include('templates/footer.php'); ?>
+      <link type="text/css" href="css/style.css" rel="stylesheet">
+
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <script src="js/main.js"></script>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      </head>
+      <body>
+
+      <!--Header-->      
+      <?php require ('templates/header.php'); ?>
+
+      <!--Main-->
+      <main>
+          <section id="modals">
+            <?php require ('modals/acerca.php'); ?>
+            </section>  
+      </main>
+
+      <!--footer-->
+      <?php require ('templates/footer.php'); ?>
+
+
+      <!--Scripts-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+
+      $(document).ready(function(){
+
+            $('#mempresas').addClass('active');
+
+      });
+
+
+      </script>
+</body>
+</html>

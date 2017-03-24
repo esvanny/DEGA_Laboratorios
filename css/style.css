@@ -1,0 +1,73 @@
+@import url('fuentes.css');
+
+#logo-principal div img {
+
+	width: 90%;
+
+}
+
+body {
+	margin-top: 100px;
+}
+
+h1, h2, h3, h4, h5 {
+
+	margin-top: 60px;
+	color: #0097a7;
+}
+
+
+
+.card-content {
+	color: #0097a7;
+}
+
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+}
+
+.navbar-logo a {
+	padding-left: 15px;
+}
+
+.brand-logo {
+	font-family: dega-font;
+}
+
+.dega-font{
+	font-family: dega-font;
+}
+
+footer{
+
+border-top: 6px solid #939598;
+
+}
+
+.promo {
+    width: 100%;
+}
+
+.promo i {
+    margin: 40px 0;
+    font-size: 7rem;
+    display: block;
+}
+
+.promo-caption {
+    font-size: 1.3rem;
+    color: #939598;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.ubicatxt {
+	text-align: left;
+}
+
+strong{
+	color: #0097a7;
+}

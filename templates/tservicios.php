@@ -50,7 +50,7 @@
           <span class="card-title"></span>
         </div>
         <div class="card-content">
-          <p>Exámenes médicos</p>
+          <p>Estudios de gabinete</p>
         </div>
       </div>
     </div>

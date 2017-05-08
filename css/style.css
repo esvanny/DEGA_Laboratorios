@@ -71,3 +71,12 @@ border-top: 6px solid #939598;
 strong{
 	color: #0097a7;
 }
+
+footer > div blockquote {
+
+	border-left: 5px solid #fff !important;
+}
+
+footer > div h5 {
+	margin-top: 15px;
+}

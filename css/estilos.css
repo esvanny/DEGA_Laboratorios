@@ -1,218 +1,440 @@
-@import url(https://fonts.googleapis.com/css?family=Fira+Mono);
-@import url('fuentes.css');
-@import url('normalize.css');
-
-body {
-	font-family: dega-font;
-}
-
-
-
-h1 {
-	font-size: 30px;
-	color: #939598;
-	font-weight: bold;
-}
-
-h2 {
-	margin: 0px;
-	font-size: 30px;
-	color: #939598;
-	font-weight: bold;
-}
-
-h3 {
-	margin: 0px;
-	font-size: 25px;
-	color: #939598;
-	font-weight: bold;
-}
-
-h4, h5 {
-	color: #939598;
-}
-
-a {text-decoration: none; color: #fff;}
-
-article div p {
-	padding:; 10px;
-	text-align: center;
-	font-size: 25px;
-	color: #939598;
-}
-
-header {
-	width: 100%;
-	background: #fff;
-	border-bottom: 6px solid #41C3D7;
-	box-shadow: 0px 3px 3px #A5A5A5;
-		-moz-box-shadow: 0px 3px 3px #A5A5A5;
-		-webkit-box-shadow: 0px 3px 3px #A5A5A5;
-	position: relative;
-	z-index: 100;
-}
-
-#encabezado {
-font-size: 18px;
-color: #939598;
-
-}
-
-#logotipo {
-	padding: 10px;
-	margin: auto;
-}
-
-#menu-form {
-	padding: 10px;
-	margin: 10px auto;
-}
-
-/*Formulario menu*/
-
-header #form-nav {
-	padding: 15px 20px;
-	text-align: right;
-}
-
-header #form-nav p {
-	margin-bottom: 0px;
-}
-
-header #form-nav a {
-	color:#fff;
-	background: #41C3D7;
-	padding:10px;
-	border-radius: 50px;
-		-moz-border-radius: 50px;
-		-webkit-border-radius: 50px;
-}
-
-header #form-nav a:hover {
-	color:#fff;
-	background: #B7E2E4;
-	padding:10px;
-	border-radius: 50px;
-		-moz-border-radius: 50px;
-		-webkit-border-radius: 50px;
-	text-decoration: none;
-}
-
-
-/*menú*/
-
-header #menu nav {
-	padding: 10px 20px;
-	text-align: right;
-
-}
-
-header #menu nav ul {
-	margin-bottom: 0px;
-}
-
-header #menu nav ul li {
-	display: inline;
-	list-style: none;
-}
-
-header #menu nav ul li a {
-	color: #939598;
-	padding:10px;
-		border-radius: 50px;
-		-moz-border-radius: 50px;
-		-webkit-border-radius: 50px;
-}
-
-header #menu nav ul li a:hover {
-	color:#fff;
-	background: #6ACAD3;
-	text-decoration: none;
-}
-
-.page-header h1 {
-	margin: 0;
-	text-align: center;
-}
-
-#etiq-article {
-	background: none;
-	box-shadow: none;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-}
-
-/*pie de página*/
-
-footer {
-	width: 100%;
-	background: #41C3D7;
-	clear: both;
-	float: left;
-	padding-bottom: 0px;
-	border-top: 6px solid #939598;
-	font-weight: bold;
-	padding-top: 30px;
-	padding-bottom: 25px;
-}
-
-#menu-footer ul{
-
-		list-style: none;
-}
-
-#menu-footer ul li {
-
-	margin: 15px;
-	display: inline;
-	font-size: 15px;
-	color: #939598;
-	text-align: center;
-}
-
-#menu-footer .center-pills {
-padding-left: 0px;
-}
-
-.admin-buttons{
-	text-align: right;
-}
-
-#tab-empresas {
-	padding-top: 25px;
-	color: #939598;
-	font-size: 20px;
-}
-
-#tab-acerca {
-	padding-top: 30px;
-}
-
-#contenido-tabs {
-
-	color: #939598;
-	margin: 25px;
-	font-size: 20px;
-	text-align: center;
-}
-
-#tab-empresas a {
-	font-size: 5px;
-	color: #939598;
-}
-
-.ajuste-header {
-	margin-top: 0px;
-}
-
-.nav-pills>li>a {
-	border-radius:35px
-}
-
-.nav-pills>li.active>a,
-.nav-pills>li.active>a h3,
-.nav-pills>li.active>a:focus,
-.nav-pills>li.active>a:hover {
-	color:#fff;
-	background-color:#41C3D7;
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono);
+
+@import url('fuentes.css');
+
+@import url('normalize.css');
+
+
+
+body {
+
+	font-family: dega-font;
+
+}
+
+
+
+
+
+
+
+h1 {
+
+	font-size: 30px;
+
+	color: #939598;
+
+	font-weight: bold;
+
+}
+
+
+
+h2 {
+
+	margin: 0px;
+
+	font-size: 30px;
+
+	color: #939598;
+
+	font-weight: bold;
+
+}
+
+
+
+h3 {
+
+	margin: 0px;
+
+	font-size: 25px;
+
+	color: #939598;
+
+	font-weight: bold;
+
+}
+
+
+
+h4, h5 {
+
+	color: #939598;
+
+}
+
+
+
+a {text-decoration: none; color: #fff;}
+
+
+
+article div p {
+
+	padding:; 10px;
+
+	text-align: center;
+
+	font-size: 25px;
+
+	color: #939598;
+
+}
+
+
+
+header {
+
+	width: 100%;
+
+	background: #fff;
+
+	border-bottom: 6px solid #41C3D7;
+
+	box-shadow: 0px 3px 3px #A5A5A5;
+
+		-moz-box-shadow: 0px 3px 3px #A5A5A5;
+
+		-webkit-box-shadow: 0px 3px 3px #A5A5A5;
+
+	position: relative;
+
+	z-index: 100;
+
+}
+
+
+
+#encabezado {
+
+font-size: 18px;
+
+color: #939598;
+
+
+
+}
+
+
+
+#logotipo {
+
+	padding: 10px;
+
+	margin: auto;
+
+}
+
+
+
+#menu-form {
+
+	padding: 10px;
+
+	margin: 10px auto;
+
+}
+
+
+
+/*Formulario menu*/
+
+
+
+header #form-nav {
+
+	padding: 15px 20px;
+
+	text-align: right;
+
+}
+
+
+
+header #form-nav p {
+
+	margin-bottom: 0px;
+
+}
+
+
+
+header #form-nav a {
+
+	color:#fff;
+
+	background: #41C3D7;
+
+	padding:10px;
+
+	border-radius: 50px;
+
+		-moz-border-radius: 50px;
+
+		-webkit-border-radius: 50px;
+
+}
+
+
+
+header #form-nav a:hover {
+
+	color:#fff;
+
+	background: #B7E2E4;
+
+	padding:10px;
+
+	border-radius: 50px;
+
+		-moz-border-radius: 50px;
+
+		-webkit-border-radius: 50px;
+
+	text-decoration: none;
+
+}
+
+
+
+
+
+/*menú*/
+
+
+
+header #menu nav {
+
+	padding: 10px 20px;
+
+	text-align: right;
+
+
+
+}
+
+
+
+header #menu nav ul {
+
+	margin-bottom: 0px;
+
+}
+
+
+
+header #menu nav ul li {
+
+	display: inline;
+
+	list-style: none;
+
+}
+
+
+
+header #menu nav ul li a {
+
+	color: #939598;
+
+	padding:10px;
+
+		border-radius: 50px;
+
+		-moz-border-radius: 50px;
+
+		-webkit-border-radius: 50px;
+
+}
+
+
+
+header #menu nav ul li a:hover {
+
+	color:#fff;
+
+	background: #6ACAD3;
+
+	text-decoration: none;
+
+}
+
+
+
+.page-header h1 {
+
+	margin: 0;
+
+	text-align: center;
+
+}
+
+
+
+#etiq-article {
+
+	background: none;
+
+	box-shadow: none;
+
+		-webkit-box-shadow: none;
+
+		-moz-box-shadow: none;
+
+}
+
+
+
+/*pie de página*/
+
+
+
+footer {
+
+	width: 100%;
+
+	background: #41C3D7;
+
+	clear: both;
+
+	float: left;
+
+	padding-bottom: 0px;
+
+	border-top: 6px solid #939598;
+
+	font-weight: bold;
+
+	padding-top: 30px;
+
+	padding-bottom: 25px;
+
+}
+
+
+
+#menu-footer ul{
+
+
+
+		list-style: none;
+
+}
+
+
+
+#menu-footer ul li {
+
+
+
+	margin: 15px;
+
+	display: inline;
+
+	font-size: 15px;
+
+	color: #939598;
+
+	text-align: center;
+
+}
+
+
+
+#menu-footer .center-pills {
+
+padding-left: 0px;
+
+}
+
+
+
+.admin-buttons{
+
+	text-align: right;
+
+}
+
+
+
+#tab-empresas {
+
+	padding-top: 25px;
+
+	color: #939598;
+
+	font-size: 20px;
+
+}
+
+
+
+#tab-acerca {
+
+	padding-top: 30px;
+
+}
+
+
+
+#contenido-tabs {
+
+
+
+	color: #939598;
+
+	margin: 25px;
+
+	font-size: 20px;
+
+	text-align: center;
+
+}
+
+
+
+#tab-empresas a {
+
+	font-size: 5px;
+
+	color: #939598;
+
+}
+
+
+
+.ajuste-header {
+
+	margin-top: 0px;
+
+}
+
+
+
+.nav-pills>li>a {
+
+	border-radius:35px
+
+}
+
+
+
+.nav-pills>li.active>a,
+
+.nav-pills>li.active>a h3,
+
+.nav-pills>li.active>a:focus,
+
+.nav-pills>li.active>a:hover {
+
+	color:#fff;
+
+	background-color:#41C3D7;
+
+}
+
+footer>blockquote {
+
+	border-left: 5px solid #fff !important;
 }

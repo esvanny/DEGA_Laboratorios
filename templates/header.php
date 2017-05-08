@@ -4,7 +4,6 @@
 			<a href="index.php" class="brand-logo ">DEGA</a>
 			<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
-				<li id="indexh"><a href="index.php">Inicio</a></li>
 				<li><a href="#acerca">Acerca</a></li>
 				<li id="mservicios"><a href="servicios">Servicios</a></li>
 				<li id="mequipos"><a href="equipos">Equipos</a></li>
